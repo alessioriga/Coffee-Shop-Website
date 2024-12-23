@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/jpg" href="./images/coffee_logo.jpg">
+    <title>Contact | Mug and Mingle</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+
+<body>
+    <a id="backtop"></a>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="logo">Mug and Mingle</div>
+            <nav class="nav">
+                <a href="/">Home</a>
+                <a href="about_us.html">About Us</a>
+                <a href="products.html">Products</a>
+                <a href="events.html">Events</a>
+                <a href="contact.html" class="current" aria-current="page">Contact</a>
+            </nav>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main">
+            <section class="hero">
+                <h1>Get in Touch</h1>
+                <p>Have a question about our coffee, events, or menu? Or perhaps you're interested in hosting your next
+                    event at Mug and Mingle?
+                    Our team is here to help. Fill out the form below, and we'll get back to you as soon as possible.
+                </p>
+            </section>
+            <a id="contactform"></a>
+            
+                
+                    <form action="/submit" method="post">
+                        <div class="section-header">
+                            <h2>Contact Form</h2>
+                        </div>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="4" placeholder="Write your message here" required></textarea>
+                        <button type="submit">Send message</button>
+                    </form>
+            
+
+            <section class="hero">
+                <h2>Visit Us</h2>
+                <p>Come see us! We are located at:</p>
+                <p><b>2 Horsham Street, Salford, M6 5QS</b></p>
+                <p>Call us! Telephone number:</p>
+                <p><b>+44 7113 125 414</b></p>
+                <p>Our café is open daily from 7:00 AM to 4:00 PM. Drop by for a cup of your favourite brew!</p>
+
+            </section>
+
+
+        </main>
+
+        <!-- Sidebar -->
+
+        <aside class="sidebar">
+            <h2>Quick Links</h2>
+            <ul>
+                <li><a href="#contactform">Contact Form</a></li>
+                <li><a href="#backtop">Back to top</a></li>
+            </ul>
+        </aside>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>&copy; 2024 Mug and Mingle. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+
+</html>
